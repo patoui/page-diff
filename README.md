@@ -18,3 +18,14 @@ There should be no failures. Next, make changes to `welcome.blade.php`, `about.b
 * Run `php artisan dusk:difference 1`
 
 The above should have output the percentage difference in changes on the page and screenshots of the difference, they can be found in `tests/Browser/differences`.
+
+## 📸 Examples
+
+Baseline screenshot
+![Tests_Browser_HomeTest_testHome](https://github.com/user-attachments/assets/2795c821-d841-4429-b826-27c9c8f1683b)
+
+Current screenshot
+![Tests_Browser_HomeTest_testHome](https://github.com/user-attachments/assets/712d312f-5338-4c09-89b4-5575a5a74dcc)
+
+Differences
+![Tests_Browser_HomeTest_testHome](https://github.com/user-attachments/assets/398c6a75-18ee-45d7-82e5-1af0966f33f2)
